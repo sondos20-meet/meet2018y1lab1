@@ -1,7 +1,3 @@
-Python 3.6.5 (default, Apr  1 2018, 05:46:30) 
-[GCC 7.3.0] on linux
-Type "copyright", "credits" or "license()" for more information.
->>> 
 import turtle
 
 # Everything that comes after the # is a 
@@ -12,9 +8,7 @@ import turtle
 
 
 # ...and end it before the next line.
-turtle.mainloop()
-SyntaxError: multiple statements found while compiling a single statement
->>> turtle.penup() #Pick up the pen so it doesn’t 
+turtle.penup() #Pick up the pen so it doesn’t 
                #draw
 turtle.goto(-200,-100) #Move the turtle to the 
  #position (-200, -100) 
@@ -26,14 +20,30 @@ turtle.goto(-200,-100+200)
 turtle.goto(-200+50,-100) 
 turtle.goto(-200+100,-100+200)
 turtle.goto(-200+100,-100) 
-import turtle
-
-# Everything that comes after the # is a
-# comment.
-# It is a note to the person reading the code.
-# The computer ignores it.
-# Write your code below here...
 
 
-# ...and end it before the next line.
+turtle.penup()
+turtle.goto(-50,-100)
+turtle.pendown()
+turtle.goto(-50,100)
+turtle.goto(50,100)
+turtle.penup()
+turtle.goto(50,0)
+turtle.pendown()
+turtle.goto(-50,0)
+turtle.penup()
+turtle.goto(50,-100)
+turtle.pendown()
+turtle.goto(-50,-100)
+
+turtle.penup()
+turtle.goto(150,-100)
+turtle.pendown()
+turtle.goto(150,100)
+
+
+
+
+
+
 turtle.mainloop()
